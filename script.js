@@ -145,10 +145,10 @@ function calcularDescuento() {
 }
 
 
-const precionConInteres = calcularInteres()
+const precioConInteres = calcularInteres()
 const descuentoAplicado = calcularDescuento()
 
-const totalAPagar = precionConInteres - precionConInteres * descuentoAplicado
+const totalAPagar = precioConInteres - precioConInteres * descuentoAplicado
 const totalPorCuotas = totalAPagar / cuotasIngresadas
 
 
